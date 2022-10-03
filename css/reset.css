@@ -8,6 +8,7 @@
     padding: 0;
 }
 
-ul{
+.list-inline{
+    display: flex;
     list-style: none;
 }
