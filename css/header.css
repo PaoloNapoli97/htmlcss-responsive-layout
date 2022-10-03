@@ -1,0 +1,26 @@
+/* --------------
+    HEADER
+-----------------*/
+
+header{
+    color: white;
+    background-color: #0084fd;
+    padding: 1.125rem 0;
+}
+
+/* --------------
+    RESPONSIVE
+-----------------*/
+
+.header-nav{
+    display: none;
+}
+
+@media screen and (min-width: 769px){
+    .header-menu{
+        display: none;
+    }
+    .header-nav{
+        display: block;
+    }
+}
