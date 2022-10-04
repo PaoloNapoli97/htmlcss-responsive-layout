@@ -6,6 +6,8 @@ header{
     color: white;
     background-color: #0084fd;
     padding: 1.125rem 0;
+    position: sticky;
+    top: 0;
 }
 
 /* --------------
@@ -16,7 +18,7 @@ header{
     display: none;
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 992px){
     .header-menu{
         display: none;
     }

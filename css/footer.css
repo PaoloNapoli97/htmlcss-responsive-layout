@@ -1,0 +1,13 @@
+/*---------------------
+    FOOTER
+---------------------*/
+
+footer {
+    color: white;
+    padding: 1.25rem 0;
+    background-color: #333333;
+}
+
+footer a{
+    color: #9792e4;
+}

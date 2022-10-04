@@ -12,3 +12,9 @@
     display: flex;
     list-style: none;
 }
+
+header a, main a{
+    color: inherit;
+    padding: 0 .625rem;
+    text-decoration: none;
+}

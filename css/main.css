@@ -1,0 +1,207 @@
+
+/*-------------
+    MAIN
+-------------*/
+
+
+
+.benefit .col-2{
+    width: calc(100% / 2);
+}
+
+/*-------------
+    DEVELOP
+-------------*/
+
+.demo-box{
+    width: calc(100% /2);
+}
+
+.develop .card{
+    background-color: #b5ddff;
+}
+
+.develop .card img{
+    width: 12.5rem;
+}
+
+.develop .card h3{
+    color: #0084fd;
+    padding-bottom: .5rem;
+}
+
+.develop .card .font-awesome{
+    color: #0084fd;
+    font-size: 2.5rem;
+}
+
+/*<---- Tablet ----->*/
+
+@media screen and (min-width: 468px){
+    .develop .card:not(1){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .develop .col{
+        width: calc(100% / 3);
+    }
+
+    .develop .col:first-child{
+        width: calc( (100% / 3) * 2);
+    }
+}
+
+/*-------------
+    PLANNING
+-------------*/
+
+.planning .col-left{
+    color: white;
+}
+
+.info{
+    padding: .625rem 0;  
+}
+
+.planning .info h2, p{
+    padding: .625rem 0;
+}
+
+
+.planning img{
+    width: 50%;
+}
+
+/*<---- Tablet ----->*/
+
+@media screen and (min-width: 768px){
+    .planning .col-2{
+        width: calc(100% / 2);
+    }
+}
+
+
+/*---------------------
+    TESTIMONIAL
+---------------------*/
+.testimonials img{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.testimonials h2{
+    padding: .625rem 0;
+    color: #9792e4;
+    font-size: 1.875rem;
+}
+
+.testimonials .card {
+    color: white;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+    text-align: center;
+    background-color: #9792e4;
+}
+
+/*<---- Tablet ----->*/
+
+@media screen and (min-width: 768px){
+    .testimonials .card {
+        text-align: left;
+    }
+    .testimonials .col-left {
+        width: 30%;
+    }
+    .testimonials .col-right {
+        width: 70%;
+    }
+}
+
+/*---------------------
+    BENEFIT
+---------------------*/
+
+/*<---- Tablet ----->*/
+
+.benefit .text-center{
+    font-size: 1.875rem;
+    color: white;
+    padding: .625rem 0;
+}
+
+.benefit  .col h2, h3{
+    padding: .625rem 0;
+    color: #9792e4;
+}
+
+@media screen and (min-width: 768px){
+    .benefit .col{
+        width: calc(100% / 3);
+    }
+}
+
+/*<---- Desktop ----->*/
+
+@media screen and (min-width: 992px){
+    .benefits .col {
+        width: calc(100% / 3);
+    }
+}
+
+/*---------------------
+    ABOUT US
+---------------------*/
+
+.about-us h2, .about-us .col-right{
+    color: #9792e4;
+} 
+
+.about-us img{
+    width: 15.625rem;
+}
+
+/*<---- Tablet ----->*/
+
+
+@media screen and (min-width: 768px){
+    .about-us .col {
+        padding-left: 2.8125rem;
+        padding-right: 2.8125rem;
+    }
+    .about-us .col-left {
+        width: 65%;
+    }
+    .about-us .col-right {
+        width: 35%;
+    }
+}
+
+/*---------------------
+    DOWNLOAD
+---------------------*/
+
+.download{
+    color: white;
+}
+
+.download h4{
+    font-weight: 100;
+    padding: .625rem 0;
+}
+
+.download h2, h3{
+    font-weight: 700;
+    padding: .625rem 0;
+}
+
+
+.download h2{
+    font-size: 1.75rem;
+}
+
+.download h3{
+    font-size: 2.5rem;
+    color: orange;
+}

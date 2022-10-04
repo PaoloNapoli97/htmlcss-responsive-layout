@@ -2,44 +2,5 @@
 @import url('common.css');
 @import url('button.css');
 @import url('header.css');
-
-/*-------------
-    MAIN
--------------*/
-
-.develop .col{
-    width: 100%;
-    padding: 1.25rem 0;
-    background-color: aqua;
-}
-
-.planning .col-2{
-    width: 100%;
-    background-color: orange;
-}
-
-.benefit .col-2{
-    width: calc(100% / 2);
-}
-
-@media screen and (min-width: 426px){
-    .develop .col{
-        width: calc(100% / 3);
-    }
-
-    .develop .col:first-child{
-        width: calc( (100% / 3) * 2);
-    }
-}
-
-@media screen and (min-width: 769px){
-    .planning .col-2{
-        width: calc(100% / 2);
-    }
-}
-
-@media screen and (min-width: 769px){
-    .benefit .col-2{
-        width: calc(100% / 3);
-    }
-}
+@import url('main.css');
+@import url('footer.css');
