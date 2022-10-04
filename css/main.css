@@ -62,13 +62,16 @@
 }
 
 .info{
-    padding: .625rem 0;  
+    padding-top: 3.125rem;
 }
 
 .planning .info h2, p{
     padding: .625rem 0;
 }
 
+.planning .col-right{
+    padding-top: 3.125rem;
+}
 
 .planning img{
     width: 50%;

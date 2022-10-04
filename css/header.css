@@ -10,9 +10,15 @@ header{
     top: 0;
 }
 
+
 /* --------------
     RESPONSIVE
 -----------------*/
+
+
+.logo img{
+    width: 3.75rem
+}
 
 .header-nav{
     display: none;

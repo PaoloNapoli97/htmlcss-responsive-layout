@@ -1,0 +1,40 @@
+/*---------------------
+    BUTTONS
+---------------------*/
+
+.btn{
+    border: none;
+    padding: .625rem;
+}
+
+
+.btn-l{
+    border: none;
+    padding: .625rem;
+    width: 12.5rem;
+}
+
+.btn-xxxl{
+    padding: 1.25rem 1.875rem;
+}
+
+.btn-radius{
+    border-radius: 1.25rem;
+}
+
+.btn-blu{
+    color: white;
+    background-color: #0084fd;
+}
+
+.btn-viola{
+    background-color: #9792e4;
+}
+
+.white{
+    color: white;
+}
+
+.purple{
+   color: #9792e4;
+}
